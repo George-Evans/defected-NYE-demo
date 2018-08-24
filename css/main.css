@@ -22,7 +22,7 @@ body {
 }
 
 .artwork {
-	width: 60%;
+	width: 55%;
 	position: relative;
 	margin: 5vh auto;
 }
@@ -101,13 +101,13 @@ input[type=number]::-webkit-outer-spin-button {
 @media screen and (max-width: 1441px), screen and (max-device-width: 1441px) {
 
 	.artwork {
-		width: 40%;
+		width: 35%;
 	}
 
 @media screen and (max-width: 1024px), screen and (max-device-width: 1024px) {
 
 	.artwork {
-		width: 50%;
+		width: 45%;
 	}
 
 
