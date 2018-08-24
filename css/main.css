@@ -1,0 +1,146 @@
+body {
+	background: url(../img/background_NYE.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000;
+	color: #fff;
+	font-family: "Helvetica Neue", Arial, serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
+}
+
+.artwork {
+	width: 60%;
+	position: relative;
+	margin: 5vh auto;
+}
+
+.logo {
+	margin: 5vh auto;
+	width: 20%;
+}
+
+
+#mc_embed_signup {
+	width: 80%;
+	max-width: 560px;
+	margin: 0 auto;
+}
+
+#mc_embed_signup input, .response {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 10px;
+	border: none;
+	border-radius: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#mc_embed_signup input, .response {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 10px;
+	border: none;
+	border-radius: 0;
+}
+
+#mc_embed_signup .button {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial, serif;
+	border: none;
+	background-color: #ff0026;
+}
+
+.mc-field-group > input {
+	color: #000;
+	text-align: center;
+}
+
+.indicates-required {
+	font-size: 10px;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: "Helvetica Neue", Arial, serif;
+  color: #777;
+  text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: "Helvetica Neue", Arial, serif;
+  color: #777;
+  text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: "Helvetica Neue", Arial, serif;
+  color: #777;
+  text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: "Helvetica Neue", Arial, serif;
+  color: #777;
+  text-align: center;
+}
+
+@media screen and (max-width: 1441px), screen and (max-device-width: 1441px) {
+
+	.artwork {
+		width: 40%;
+	}
+
+@media screen and (max-width: 1024px), screen and (max-device-width: 1024px) {
+
+	.artwork {
+		width: 50%;
+	}
+
+
+@media screen and (max-width: 420px), screen and (max-device-width: 420px) {
+
+	.container {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		transform: translate(0, -50%);
+	}
+
+	.artwork,
+	#mc_embed_signup {	
+		width: 85%;
+	}
+
+	.logo {
+		width: 35%;
+	}
+
+	.date {
+		font-size: 16px;
+		margin-bottom: 18px;
+	}
+
+	.date .tight {
+		letter-spacing: -2;
+	}
+
+	.info {
+		font-size: 14px;
+	}
+
+}
